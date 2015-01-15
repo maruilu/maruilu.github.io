@@ -1,2 +1,45 @@
 @import "compass/reset";
 @import "compass/css3";
+
+body{
+  background: url("../images/libra.jpg");
+  color:white;
+
+
+}
+
+.header {
+  .search-bar {
+    width: 100%;
+    img {
+      display: inline-block;
+    }
+    .search {
+      display: inline-block;
+      width: 90%;
+      margin: 0 auto;
+      text-align: right;
+    }
+  }
+
+  .menu {
+    text-align:center;
+    ul {
+      background: cornflowerblue;
+      color: white;
+
+      padding: 10px;
+      li {
+        display: inline-block;
+        margin-left: 40px;
+
+      }
+    }
+  }
+}
+
+
+.img {
+  height: 30px;
+  width: 30px;
+}
