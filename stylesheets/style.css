@@ -100,8 +100,50 @@ body {
   margin-left: 40px;
 }
 
+/* line 41, ../sass/style.scss */
+.container {
+  text-align: center;
+}
 /* line 42, ../sass/style.scss */
+.container .option {
+  display: inline-block;
+}
+/* line 44, ../sass/style.scss */
+.container .option button {
+  width: 100px;
+  height: 50px;
+  font-size: 16px;
+  background-color: cornflowerblue;
+  color: white;
+  margin-bottom: 10px;
+}
+/* line 54, ../sass/style.scss */
+.container img {
+  width: 400px;
+  height: 450px;
+  margin-left: 30px;
+}
+/* line 60, ../sass/style.scss */
+.container .hello {
+  font-size: 36px;
+  margin-top: 40px;
+}
+/* line 64, ../sass/style.scss */
+.container .msg {
+  font-size: 36px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+/* line 72, ../sass/style.scss */
 .img {
   height: 30px;
   width: 30px;
+}
+
+/* line 77, ../sass/style.scss */
+.footer {
+  height: 100px;
+  text-align: center;
+  padding: 30px;
 }

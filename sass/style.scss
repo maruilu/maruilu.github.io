@@ -38,8 +38,44 @@ body{
   }
 }
 
+.container {
+  .option {
+    display: inline-block;
+    button {
+      width: 100px;
+      height: 50px;
+      font-size: 16px;
+      background-color: cornflowerblue;
+      color: white;
+      margin-bottom: 10px;
+    }
+  }
+
+  img {
+    width: 400px;
+    height: 450px;
+    margin-left: 30px;
+
+  }
+  .hello{
+    font-size: 36px;
+    margin-top: 40px;
+  }
+  .msg{
+    font-size: 36px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  text-align: center;
+}
 
 .img {
   height: 30px;
   width: 30px;
+}
+
+.footer {
+  height: 100px;
+  text-align: center;
+  padding: 30px;
 }
