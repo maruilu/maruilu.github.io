@@ -32,7 +32,6 @@ body{
       li {
         display: inline-block;
         margin-left: 40px;
-
       }
     }
   }
@@ -48,7 +47,10 @@ body{
       background-color: cornflowerblue;
       color: white;
       margin-bottom: 10px;
+      border-radius: 8px;
+      border: 1px solid black;
     }
+
   }
 
   img {
